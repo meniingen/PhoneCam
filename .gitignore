@@ -1,3 +1,5 @@
 bin/
 .vs/
 *.user
+
+tools/ffmpeg/*.exe
