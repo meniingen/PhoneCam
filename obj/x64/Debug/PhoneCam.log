@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Process.cpp
+  Mirror.cpp
+  Camera.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'softcam.lib'

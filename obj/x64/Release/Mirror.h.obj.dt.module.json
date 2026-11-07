@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "C:\\Users\\Linus\\Documents\\Chatgpt\\PhoneCam\\obj\\x64\\Release\\Mirror.obj",
+            "outputs": [
+                "C:\\Users\\Linus\\Documents\\Chatgpt\\PhoneCam\\obj\\x64\\Release\\Mirror.h.obj.dt.module.json",
+                "C:\\Users\\Linus\\Documents\\Chatgpt\\PhoneCam\\obj\\x64\\Release\\Mirror.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

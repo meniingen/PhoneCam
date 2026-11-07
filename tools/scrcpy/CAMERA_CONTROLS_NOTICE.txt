@@ -1,0 +1,13 @@
+The file scrcpy-server-camera-controls is built from the serifpersia/scrcpy fork.
+It adds Camera2 control messages for autofocus, focus distance, exposure time,
+ISO, torch, and zoom to the scrcpy 5.0.1 server protocol.
+
+Source: https://github.com/serifpersia/scrcpy
+Client reference and protocol documentation: https://github.com/serifpersia/scrcpy-cam
+License: Apache License 2.0 (see LICENSE.txt in this directory).
+The supplied server artifact corresponds to source revision
+b7d225ff283f16ae45d1a093255f95bb82896954.
+
+
+PhoneCam camera status extension:
+The matching server sends device message type 3 as a 16-bit big-endian payload length (52), followed by exposure time in ns (int64) and 11 big-endian int32 values: ISO, focus distance in milli-diopters, EV, zoom x10, AE state, AF state, AWB state, AE mode, AF mode, AWB mode, and white-balance Kelvin (0 when Camera2 does not expose a measured value). Status is sent from each completed Camera2 capture result while camera streaming is active.

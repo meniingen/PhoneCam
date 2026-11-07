@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "F:\\AI Hjälp\\Chatgpt\\PhoneCam\\obj\\x64\\Release\\main.obj",
+            "outputs": [
+                "F:\\AI Hjälp\\Chatgpt\\PhoneCam\\obj\\x64\\Release\\main.cpp.obj.dt.module.json",
+                "F:\\AI Hjälp\\Chatgpt\\PhoneCam\\obj\\x64\\Release\\main.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
